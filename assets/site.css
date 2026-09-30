@@ -1,0 +1,12 @@
+* { box-sizing: border-box; }
+html { color-scheme: light dark; scroll-behavior: auto; }
+body { margin: 0 auto; max-width: 54rem; padding: 1.25rem; font: 1rem/1.65 system-ui, -apple-system, sans-serif; overflow-wrap: anywhere; }
+a { color: #1659b8; text-underline-offset: .2em; }
+a:focus-visible { outline: 3px solid currentColor; outline-offset: 4px; }
+nav { display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; }
+nav a { display: inline-block; padding: .5rem 0; }
+h1 { font-size: clamp(1.6rem, 4vw, 2.2rem); line-height: 1.25; }
+h2 { font-size: 1.25rem; line-height: 1.4; margin-top: 1.75rem; }
+section + section { border-top: 1px solid #777; margin-top: 2.5rem; padding-top: 1rem; }
+footer { margin-top: 2.5rem; border-top: 1px solid #777; padding-top: 1rem; font-size: .9rem; }
+@media (prefers-color-scheme: dark) { a { color: #9bc4ff; } }
